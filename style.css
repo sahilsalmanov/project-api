@@ -1,0 +1,198 @@
+
+body {
+    background-image: linear-gradient(
+  45deg,
+  hsl(175deg 81% 39%) 0%,
+  hsl(171deg 48% 50%) 11%,
+  hsl(167deg 45% 56%) 22%,
+  hsl(162deg 43% 62%) 33%,
+  hsl(156deg 42% 67%) 44%,
+  hsl(150deg 41% 71%) 56%,
+  hsl(144deg 39% 75%) 67%,
+  hsl(136deg 38% 80%) 78%,
+  hsl(126deg 36% 83%) 89%,
+  hsl(115deg 37% 87%) 100%
+);
+    height: 810px;
+
+}
+.header {
+ background: rgba(245, 245, 246, 1);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+ul {
+    color: #B9BDC3;
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+
+}
+li {
+    padding-left: 15px;
+    cursor: pointer;
+}
+li:hover {
+    color: black;
+}
+.bank {
+    color: black;
+    padding-left: 0;
+}
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.enter:hover {
+    background-color: teal;
+    color: white;
+}
+.bottom {
+    height: 500px;
+    width: 60%;
+    margin: auto;
+}
+.bottom-top {
+    width: 100%;
+}
+.bottom-bottom {
+    display: flex;
+}
+.left {
+    height: 500px;
+    width: 50%;
+}
+.left p {
+    color: gray;
+}
+.right p {
+    color: gray;
+}
+.right {
+    height: 500px;
+    width: 50%;
+
+}
+.exchange {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 40px;
+}
+.exchange div {
+    border: 1px solid gray;
+    padding: 10px;
+    padding-right: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value {
+    padding-left: 10px;
+    width: 70%;
+    box-sizing: border-box;
+    height: 150px;
+    display: flex;
+    border: 1px solid gray;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: space-around;
+}
+.value input {
+    font-size: 40px;
+    border: none;
+    height: 90px;
+}
+.value p {
+color: gray;
+}
+.exchange div:hover  {
+cursor: pointer;
+}
+.deyis {
+    background-color: purple;
+}
+
+
+
+
+@media screen and (min-width:1000px) and (max-width:1500px) {
+    .bottom {
+        width: 65%;
+    }
+    .left {
+        height: 300px;
+    }
+    .value {
+        width: 285px;
+    }
+    .exchange div {
+        border: 1px solid gray;
+        padding: 10px;
+        padding-right: 27px;
+}
+}
+
+  @media screen and (min-width:800px) and (max-width:1000px) {
+
+    .bottom {
+    width: 80%;
+   }
+    .left {
+        height: 300px;
+    }
+    .value {
+        width: 273px;
+    }
+    .exchange div {
+        border: 1px solid gray;
+        padding: 10px;
+        padding-right: 24px;
+}
+  }
+
+   @media screen and (min-width:320px) and (max-width:800px){
+   body {
+    background-image: none;
+    background-color: hsl(171deg 48% 50%);
+   }
+
+    .bottom-bottom {
+        display: block;
+    } 
+    .bottom {
+        width: 36%;
+    }
+    .bottom-top{
+        width: 600px;
+    }
+    .header {
+        width: 800px;
+    }
+    .left {
+        height: 300px;
+    }
+    .value {
+        width: 445px;
+    }
+    .exchange div {
+        padding: 10px;
+        padding-right: 67px;
+   }
+}
