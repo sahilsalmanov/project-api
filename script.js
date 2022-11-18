@@ -107,7 +107,7 @@ function dogru5() {
         fetch('https://api.exchangerate.host/convert?from=RUB&to=USD')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+     
           deyer = data.result
           value1.innerText = '1 RUB ' + '=' + ' ' + deyer + ' USD'
           input2.value = input1.value * deyer
@@ -116,7 +116,7 @@ function dogru5() {
     fetch('https://api.exchangerate.host/convert?from=USD&to=RUB')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+   
     deyer2 = data.result
     value2.innerText = '1 USD ' + '=' + ' ' + deyer2 + ' RUB'
   })
@@ -131,7 +131,7 @@ function dogru6() {
         fetch('https://api.exchangerate.host/convert?from=RUB&to=EUR')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+         
           deyer = data.result
           value1.innerText = '1 RUB ' + '=' + ' ' + deyer + ' EUR'
           input2.value = input1.value * deyer
@@ -140,7 +140,7 @@ function dogru6() {
     fetch('https://api.exchangerate.host/convert?from=EUR&to=RUB')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+   
     deyer2 = data.result
     value2.innerText = '1 EUR ' + '=' + ' ' + deyer2 + ' RUB'
   })
@@ -155,7 +155,7 @@ function dogru7() {
         fetch('https://api.exchangerate.host/convert?from=RUB&to=GBP')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+   
           deyer = data.result
           value1.innerText = '1 RUB ' + '=' + ' ' + deyer + ' GBP'
           input2.value = input1.value * deyer
@@ -164,7 +164,7 @@ function dogru7() {
     fetch('https://api.exchangerate.host/convert?from=GBP&to=RUB')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+  
     deyer2 = data.result
     value2.innerText = '1 GBP ' + '=' + ' ' + deyer2 + ' RUB'
   })
@@ -179,7 +179,7 @@ bottom.addEventListener('click', dogru2)
 function dogru2() {
     if (dollar.classList.contains('deyis') && dollar2.classList.contains('deyis')){
      input2.value = input1.value
-     console.log('duz')
+
      value1.innerText = '1 USD = 1 USD '
      value2.innerText = '1 USD = 1 USD'
     }
@@ -194,7 +194,7 @@ function dogru8() {
         fetch('https://api.exchangerate.host/convert?from=USD&to=RUB')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+      
           deyer = data.result
           value1.innerText = '1 USD ' + '=' + ' ' + deyer + ' RUB'
           input2.value = input1.value * deyer
@@ -203,7 +203,7 @@ function dogru8() {
     fetch('https://api.exchangerate.host/convert?from=RUB&to=USD')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+   
     deyer2 = data.result
     value2.innerText = '1 RUB ' + '=' + ' ' + deyer2 + ' USD'
   })
@@ -218,7 +218,7 @@ function dogru9() {
         fetch('https://api.exchangerate.host/convert?from=USD&to=EUR')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+          
           deyer = data.result
           value1.innerText = '1 USD ' + '=' + ' ' + deyer + ' EUR'
           input2.value = input1.value * deyer
@@ -227,7 +227,7 @@ function dogru9() {
     fetch('https://api.exchangerate.host/convert?from=EUR&to=USD')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+
     deyer2 = data.result
     value2.innerText = '1 EUR ' + '=' + ' ' + deyer2 + ' USD'
   })
@@ -242,7 +242,7 @@ function dogru10() {
         fetch('https://api.exchangerate.host/convert?from=USD&to=GBP')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+         
           deyer = data.result
           value1.innerText = '1 USD ' + '=' + ' ' + deyer + ' GBP'
           input2.value = input1.value * deyer
@@ -251,7 +251,7 @@ function dogru10() {
     fetch('https://api.exchangerate.host/convert?from=GBP&to=USD')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+ 
     deyer2 = data.result
     value2.innerText = '1 GBP ' + '=' + ' ' + deyer2 + ' USD'
   })
@@ -280,7 +280,7 @@ function dogru11() {
         fetch('https://api.exchangerate.host/convert?from=EUR&to=RUB')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+       
           deyer = data.result
           value1.innerText = '1 EURO ' + '=' + ' ' + deyer + ' RUB'
           input2.value = input1.value * deyer
@@ -289,7 +289,7 @@ function dogru11() {
     fetch('https://api.exchangerate.host/convert?from=RUB&to=EUR')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+
     deyer2 = data.result
     value2.innerText = '1 RUB ' + '=' + ' ' + deyer2 + ' EURO'
   })
@@ -304,7 +304,7 @@ function dogru12() {
         fetch('https://api.exchangerate.host/convert?from=EUR&to=USD')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+       
           deyer = data.result
           value1.innerText = '1 EURO ' + '=' + ' ' + deyer + ' USD'
           input2.value = input1.value * deyer
@@ -313,7 +313,7 @@ function dogru12() {
     fetch('https://api.exchangerate.host/convert?from=USD&to=EUR')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+  
     deyer2 = data.result
     value2.innerText = '1 USD ' + '=' + ' ' + deyer2 + ' EURO'
   })
@@ -329,7 +329,7 @@ function dogru13() {
         fetch('https://api.exchangerate.host/convert?from=EUR&to=GBP')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+        
           deyer = data.result
           value1.innerText = '1 EURO ' + '=' + ' ' + deyer + ' GBP'
           input2.value = input1.value * deyer
@@ -338,7 +338,7 @@ function dogru13() {
     fetch('https://api.exchangerate.host/convert?from=GBP&to=EUR')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+   
     deyer2 = data.result
     value2.innerText = '1 GBP ' + '=' + ' ' + deyer2 + ' EURO'
   })
@@ -367,7 +367,7 @@ function dogru14() {
         fetch('https://api.exchangerate.host/convert?from=GBP&to=RUB')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+       
           deyer = data.result
           value1.innerText = '1 GBP ' + '=' + ' ' + deyer + ' RUB'
           input2.value = input1.value * deyer
@@ -376,7 +376,7 @@ function dogru14() {
     fetch('https://api.exchangerate.host/convert?from=GBP&to=EUR')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+   
     deyer2 = data.result
     value2.innerText = '1 RUB ' + '=' + ' ' + deyer2 + ' GBP'
   })
@@ -391,7 +391,7 @@ function dogru15() {
         fetch('https://api.exchangerate.host/convert?from=GBP&to=USD')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+       
           deyer = data.result
           value1.innerText = '1 GBP ' + '=' + ' ' + deyer + ' USD'
           input2.value = input1.value * deyer
@@ -400,7 +400,7 @@ function dogru15() {
     fetch('https://api.exchangerate.host/convert?from=USD&to=GBP')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+  
     deyer2 = data.result
     value2.innerText = '1 USD ' + '=' + ' ' + deyer2 + ' GBP'
   })
@@ -415,7 +415,7 @@ function dogru16() {
         fetch('https://api.exchangerate.host/convert?from=GBP&to=EUR')
         .then(res => res.json())
         .then(data => {
-          console.log(data.result)
+        
           deyer = data.result
           value1.innerText = '1 GBP ' + '=' + ' ' + deyer + ' EUR'
           input2.value = input1.value * deyer
@@ -424,7 +424,7 @@ function dogru16() {
     fetch('https://api.exchangerate.host/convert?from=EUR&to=GBP')
   .then(res => res.json())
   .then(data => {
-    console.log(data.result)
+   
     deyer2 = data.result
     value2.innerText = '1 EUR ' + '=' + ' ' + deyer2 + ' GBP'
   })
